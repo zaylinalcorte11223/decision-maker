@@ -21,7 +21,7 @@ function draw() {
 
 
 for (var i=0; i < 15; i++){
-    rect(20, 20, 60, 60);
+    fill(r, g, b);
 rect(0, rectY, 500, 500);
   rectY += 500/15;
   r += 14;
@@ -29,7 +29,7 @@ rect(0, rectY, 500, 500);
  
 }
 fill(255);
-square(30, 20, 55);
+square(200, 400, 55);
     
 }
  
